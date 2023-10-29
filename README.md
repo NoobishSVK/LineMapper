@@ -31,11 +31,11 @@ npm install linemapper.js
 ### Importing
 
 You can import LineMapper into your project as follows:
-~~~
+~~~html
 <script src="linemapper.js"></script>
 ~~~
 Or when using npm: 
-~~~
+~~~js
 const lineMapper = require('linemapper.js');
 ~~~
 
@@ -43,14 +43,14 @@ const lineMapper = require('linemapper.js');
 
 To set up the container where the map will be drawn, put a canvas inside a container with the linemapper class:
 
-~~~
+~~~html
 <div class="linemapper">
   <canvas id="your-custom-id"></canvas> <!-- your-custom-id will be used for canvas init -->
 </div>
 ~~~
 
 Then, initialize LineMapper by calling this code at any time you need (after loading the library itself):
-~~~
+~~~js
 lineMapper.init({
   canvasId: 'your-custom-id', // the ID used in your canvas tag
 
