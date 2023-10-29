@@ -16,7 +16,7 @@ With LineMapper, you can:
 
 ## Projects using LineMapper
 
-- [Noobish's interactive Minecraft Nether Highway map](https://example.com): This map serves as a virtual Minecraft top-down view map, featuring interactive waypoint behavior and custom content.
+- [Noobish's interactive Minecraft Nether Highway map](https://noobish.eu/mc_map/): This map serves as a virtual Minecraft top-down view map, featuring interactive waypoint behavior and custom content.
 
 Did you know that your project can be featured here as well? 😎
 
@@ -24,7 +24,7 @@ Did you know that your project can be featured here as well? 😎
 
 ### Installation
 
-You can download LineMapper by [clicking here](https://example.com) or install it using npm:
+You can download LineMapper by [clicking here](https://github.com/NoobishSVK/LineMapper/releases) or install it using npm:
 
 npm install linemapper.js
 
