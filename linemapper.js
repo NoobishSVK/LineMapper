@@ -362,6 +362,7 @@ const lineMapper = {
     },
     
     handleTouchStart: function (event) {
+        event.preventDefault();
         if (event.touches.length === 2) {
             const touch1 = event.touches[0];
             const touch2 = event.touches[1];
