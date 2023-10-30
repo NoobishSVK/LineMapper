@@ -154,7 +154,6 @@ const lineMapper = {
             
             switch (waypoint.textposition) {
                 default:
-                case 'center':
                 this.ctx.textAlign = "center";
                 textX = (x - this.panX) * this.zoom + offsetX;
                 textY = (y - this.panY) * this.zoom + offsetY + textOffsetVertical;
