@@ -321,7 +321,7 @@ const lineMapper = {
             this.lastMouseX = event.clientX;
             this.lastMouseY = event.clientY;
             
-            cursorChangeTimeout = setTimeout(() => { this.canvas.style.cursor = 'move'; }, 75);
+            this.cursorChangeTimeout = setTimeout(() => { this.canvas.style.cursor = 'move'; }, 75);
         }
     },
     
@@ -329,7 +329,7 @@ const lineMapper = {
     handleMouseUp: function (event) {
         if (event.button === 0) {
             this.isPanning = false;
-            clearTimeout(cursorChangeTimeout);
+            clearTimeout(this.cursorChangeTimeout);
             this.canvas.style.cursor = 'default';
         }
     },
